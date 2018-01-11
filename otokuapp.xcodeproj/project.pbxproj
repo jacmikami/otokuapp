@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD33E1A62007B56A00FC13B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33E1A52007B56A00FC13B8 /* AppDelegate.swift */; };
+		AD33E1A82007B56A00FC13B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33E1A72007B56A00FC13B8 /* ViewController.swift */; };
+		AD33E1AB2007B56A00FC13B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD33E1A92007B56A00FC13B8 /* Main.storyboard */; };
+		AD33E1AD2007B56A00FC13B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD33E1AC2007B56A00FC13B8 /* Assets.xcassets */; };
+		AD33E1B02007B56A00FC13B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD33E1AE2007B56A00FC13B8 /* LaunchScreen.storyboard */; };
+		AD33E1BB2007B56A00FC13B8 /* otokuappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33E1BA2007B56A00FC13B8 /* otokuappTests.swift */; };
+		AD33E1C62007B56A00FC13B8 /* otokuappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33E1C52007B56A00FC13B8 /* otokuappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD33E1B72007B56A00FC13B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD33E19A2007B56A00FC13B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD33E1A12007B56A00FC13B8;
+			remoteInfo = otokuapp;
+		};
+		AD33E1C22007B56A00FC13B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD33E19A2007B56A00FC13B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD33E1A12007B56A00FC13B8;
+			remoteInfo = otokuapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD33E1A22007B56A00FC13B8 /* otokuapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otokuapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD33E1A52007B56A00FC13B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD33E1A72007B56A00FC13B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD33E1AA2007B56A00FC13B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD33E1AC2007B56A00FC13B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD33E1AF2007B56A00FC13B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD33E1B12007B56A00FC13B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD33E1B62007B56A00FC13B8 /* otokuappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otokuappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD33E1BA2007B56A00FC13B8 /* otokuappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otokuappTests.swift; sourceTree = "<group>"; };
+		AD33E1BC2007B56A00FC13B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD33E1C12007B56A00FC13B8 /* otokuappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otokuappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD33E1C52007B56A00FC13B8 /* otokuappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otokuappUITests.swift; sourceTree = "<group>"; };
+		AD33E1C72007B56A00FC13B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD33E19F2007B56A00FC13B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD33E1B32007B56A00FC13B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD33E1BE2007B56A00FC13B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD33E1992007B56A00FC13B8 = {
+			isa = PBXGroup;
+			children = (
+				AD33E1A42007B56A00FC13B8 /* otokuapp */,
+				AD33E1B92007B56A00FC13B8 /* otokuappTests */,
+				AD33E1C42007B56A00FC13B8 /* otokuappUITests */,
+				AD33E1A32007B56A00FC13B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD33E1A32007B56A00FC13B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD33E1A22007B56A00FC13B8 /* otokuapp.app */,
+				AD33E1B62007B56A00FC13B8 /* otokuappTests.xctest */,
+				AD33E1C12007B56A00FC13B8 /* otokuappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD33E1A42007B56A00FC13B8 /* otokuapp */ = {
+			isa = PBXGroup;
+			children = (
+				AD33E1A52007B56A00FC13B8 /* AppDelegate.swift */,
+				AD33E1A72007B56A00FC13B8 /* ViewController.swift */,
+				AD33E1A92007B56A00FC13B8 /* Main.storyboard */,
+				AD33E1AC2007B56A00FC13B8 /* Assets.xcassets */,
+				AD33E1AE2007B56A00FC13B8 /* LaunchScreen.storyboard */,
+				AD33E1B12007B56A00FC13B8 /* Info.plist */,
+			);
+			path = otokuapp;
+			sourceTree = "<group>";
+		};
+		AD33E1B92007B56A00FC13B8 /* otokuappTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD33E1BA2007B56A00FC13B8 /* otokuappTests.swift */,
+				AD33E1BC2007B56A00FC13B8 /* Info.plist */,
+			);
+			path = otokuappTests;
+			sourceTree = "<group>";
+		};
+		AD33E1C42007B56A00FC13B8 /* otokuappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD33E1C52007B56A00FC13B8 /* otokuappUITests.swift */,
+				AD33E1C72007B56A00FC13B8 /* Info.plist */,
+			);
+			path = otokuappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD33E1A12007B56A00FC13B8 /* otokuapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD33E1CA2007B56A00FC13B8 /* Build configuration list for PBXNativeTarget "otokuapp" */;
+			buildPhases = (
+				AD33E19E2007B56A00FC13B8 /* Sources */,
+				AD33E19F2007B56A00FC13B8 /* Frameworks */,
+				AD33E1A02007B56A00FC13B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otokuapp;
+			productName = otokuapp;
+			productReference = AD33E1A22007B56A00FC13B8 /* otokuapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD33E1B52007B56A00FC13B8 /* otokuappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD33E1CD2007B56A00FC13B8 /* Build configuration list for PBXNativeTarget "otokuappTests" */;
+			buildPhases = (
+				AD33E1B22007B56A00FC13B8 /* Sources */,
+				AD33E1B32007B56A00FC13B8 /* Frameworks */,
+				AD33E1B42007B56A00FC13B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD33E1B82007B56A00FC13B8 /* PBXTargetDependency */,
+			);
+			name = otokuappTests;
+			productName = otokuappTests;
+			productReference = AD33E1B62007B56A00FC13B8 /* otokuappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD33E1C02007B56A00FC13B8 /* otokuappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD33E1D02007B56A00FC13B8 /* Build configuration list for PBXNativeTarget "otokuappUITests" */;
+			buildPhases = (
+				AD33E1BD2007B56A00FC13B8 /* Sources */,
+				AD33E1BE2007B56A00FC13B8 /* Frameworks */,
+				AD33E1BF2007B56A00FC13B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD33E1C32007B56A00FC13B8 /* PBXTargetDependency */,
+			);
+			name = otokuappUITests;
+			productName = otokuappUITests;
+			productReference = AD33E1C12007B56A00FC13B8 /* otokuappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD33E19A2007B56A00FC13B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "tomoyuki mikami";
+				TargetAttributes = {
+					AD33E1A12007B56A00FC13B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD33E1B52007B56A00FC13B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD33E1A12007B56A00FC13B8;
+					};
+					AD33E1C02007B56A00FC13B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD33E1A12007B56A00FC13B8;
+					};
+				};
+			};
+			buildConfigurationList = AD33E19D2007B56A00FC13B8 /* Build configuration list for PBXProject "otokuapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD33E1992007B56A00FC13B8;
+			productRefGroup = AD33E1A32007B56A00FC13B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD33E1A12007B56A00FC13B8 /* otokuapp */,
+				AD33E1B52007B56A00FC13B8 /* otokuappTests */,
+				AD33E1C02007B56A00FC13B8 /* otokuappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD33E1A02007B56A00FC13B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD33E1B02007B56A00FC13B8 /* LaunchScreen.storyboard in Resources */,
+				AD33E1AD2007B56A00FC13B8 /* Assets.xcassets in Resources */,
+				AD33E1AB2007B56A00FC13B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD33E1B42007B56A00FC13B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD33E1BF2007B56A00FC13B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD33E19E2007B56A00FC13B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD33E1A82007B56A00FC13B8 /* ViewController.swift in Sources */,
+				AD33E1A62007B56A00FC13B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD33E1B22007B56A00FC13B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD33E1BB2007B56A00FC13B8 /* otokuappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD33E1BD2007B56A00FC13B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD33E1C62007B56A00FC13B8 /* otokuappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD33E1B82007B56A00FC13B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD33E1A12007B56A00FC13B8 /* otokuapp */;
+			targetProxy = AD33E1B72007B56A00FC13B8 /* PBXContainerItemProxy */;
+		};
+		AD33E1C32007B56A00FC13B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD33E1A12007B56A00FC13B8 /* otokuapp */;
+			targetProxy = AD33E1C22007B56A00FC13B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD33E1A92007B56A00FC13B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD33E1AA2007B56A00FC13B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD33E1AE2007B56A00FC13B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD33E1AF2007B56A00FC13B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD33E1C82007B56A00FC13B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD33E1C92007B56A00FC13B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD33E1CB2007B56A00FC13B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otokuapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.otokuapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD33E1CC2007B56A00FC13B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otokuapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.otokuapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD33E1CE2007B56A00FC13B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otokuappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.otokuappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otokuapp.app/otokuapp";
+			};
+			name = Debug;
+		};
+		AD33E1CF2007B56A00FC13B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otokuappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.otokuappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otokuapp.app/otokuapp";
+			};
+			name = Release;
+		};
+		AD33E1D12007B56A00FC13B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otokuappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.otokuappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = otokuapp;
+			};
+			name = Debug;
+		};
+		AD33E1D22007B56A00FC13B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otokuappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.otokuappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = otokuapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD33E19D2007B56A00FC13B8 /* Build configuration list for PBXProject "otokuapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD33E1C82007B56A00FC13B8 /* Debug */,
+				AD33E1C92007B56A00FC13B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD33E1CA2007B56A00FC13B8 /* Build configuration list for PBXNativeTarget "otokuapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD33E1CB2007B56A00FC13B8 /* Debug */,
+				AD33E1CC2007B56A00FC13B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD33E1CD2007B56A00FC13B8 /* Build configuration list for PBXNativeTarget "otokuappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD33E1CE2007B56A00FC13B8 /* Debug */,
+				AD33E1CF2007B56A00FC13B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD33E1D02007B56A00FC13B8 /* Build configuration list for PBXNativeTarget "otokuappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD33E1D12007B56A00FC13B8 /* Debug */,
+				AD33E1D22007B56A00FC13B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD33E19A2007B56A00FC13B8 /* Project object */;
+}
